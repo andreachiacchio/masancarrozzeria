@@ -125,3 +125,13 @@ h1 .ch{display:inline-block;transform:translateY(105%);transition:transform .9s 
 @media (prefers-reduced-motion:reduce){.D .strip{overflow-x:auto;-webkit-mask:none;mask:none}.D .track2 [aria-hidden]{display:none}.D .track2{padding:4px 20px}}
 @media(min-width:900px){.D .dgal{padding:120px 0 60px}}
 .D .top .pill{white-space:nowrap;flex:none}.D .top .brand{min-width:0;line-height:1.15}
+
+/* pagamenti Klarna / Scalapay */
+.paylbl{margin:.9rem 0 .4rem;font-size:.85rem;opacity:.75}
+.paybadges{display:flex;gap:.6rem;flex-wrap:wrap;margin:0 0 1rem}
+.paybadges.big{margin-top:1.2rem}
+.pb{display:inline-flex;align-items:center;height:2.2rem;padding:0 1rem;border-radius:.6rem;font:800 1.05rem/1 "Inter",system-ui,sans-serif;letter-spacing:-.02em}
+.paybadges.big .pb{height:2.8rem;font-size:1.3rem;padding:0 1.3rem}
+.pb-klarna{background:#FFB3C7;color:#0b0b0b}
+.pb-scala{background:#fff;color:#0b0b0b}
+.pb-scala::before{content:"";width:.65em;height:.65em;margin-right:.4em;border-radius:50%;background:linear-gradient(135deg,#ff9fd0,#7b8cff)}
